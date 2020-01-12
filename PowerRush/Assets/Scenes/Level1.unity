@@ -212,7 +212,7 @@ GameObject:
   - component: {fileID: 333969396}
   - component: {fileID: 333969395}
   - component: {fileID: 333969397}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: level1Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2132,7 +2132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1407268564}
   - component: {fileID: 1407268563}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2196,7 +2196,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.16937166, y: -0.6541233}
@@ -2402,6 +2402,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2018a6f933baeb418531258b7ddf3d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LevelLayerMask:
+    serializedVersion: 2
+    m_Bits: 2048
   moveSpeed: 3
 --- !u!212 &1800759040
 SpriteRenderer:
