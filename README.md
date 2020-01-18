@@ -1,2 +1,2 @@
-# NamePending
-Epic development team
+# FiKe Dev
+PowerRush is our new classic 2D platformer so enjoy.
